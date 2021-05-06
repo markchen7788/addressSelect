@@ -1,13 +1,14 @@
-# addressSelect
-用JS简单的实现了国内地址的联动选择，用到了Layui和国内地址Json数据集
-# 简单的引入方式
-* 引入layui
-    ```html
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css" />
-  ```
-* 编写选择框
-    ```html
-     <form class="layui-form">
+</head>
+
+<body class="layui-main">
+    <script src="https://www.layuicdn.com/layui/layui.js"></script>
+    <p>用Layui和json数据集做的一个简单国内地址联动</p>
+    <form class="layui-form">
             <div class="layui-input-inline">
                 <select id="province" lay-filter="province" name="province">
                 </select>
@@ -21,14 +22,7 @@
                 </select>
             </div>
     </form>
-    ```
-* 引入JS
-    ```html
-    <script src="./adress.js"> </script>
-    ```
-    或者
-     ```html
-    <script src="./adress.js"> </script>
-    ```
-#点击查看[Demo]()
-![Image text](./test.JPG)
+</body>
+<script src="./adress.js"> </script>
+
+</html>
