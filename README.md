@@ -28,7 +28,7 @@
     ```
     或者
      ```html
-    <script src="./adress.js"> </script>
+    <script src=" https://markchen7788.github.io/addressSelect/adress.js"> </script>
     ```
-#点击查看[Demo]()
+#点击查看[Demo](https://markchen7788.github.io/addressSelect/)
 ![Image text](./test.JPG)
